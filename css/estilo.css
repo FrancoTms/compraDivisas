@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1, h2, h3{
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+h1{
+    background-color: cadetblue;
+}
+h2{
+    background-color: rgb(15, 115, 119);
+}
+h3{
+    background-color: rgb(61, 134, 136);
+}
+form{
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    width: 50%;
+    padding: 1em;
+}
+form section{
+    display: flex;
+    flex-direction: column;
+}
+.secBot{
+    padding-top: 1em;
+}
+label, input, select{
+    font-size: 1em;
+    padding: .5em;
+}
+input[type=submit]{
+    background-color: cadetblue;
+    color: white;
+    padding: .3em;
+    border-radius: 5%;
+    width: 20%;
+    margin: 0 auto;
+}
+footer{
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+}
